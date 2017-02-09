@@ -1,0 +1,43 @@
+{
+  "name": "html-es6-template-loader",
+  "version": "1.0.0",
+  "description": "Webpack loader to parse HTML as ES6 template strings",
+  "readme": "README.md",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berardo/html-es6-template-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "es6",
+    "template",
+    "string",
+    "interpolation",
+    "loader"
+  ],
+  "author": {
+    "name": "Jose Berardo Cunha",
+    "homepage": "https://github.com/berardo"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/berardo/html-es6-template-loader/issues"
+  },
+  "homepage": "https://github.com/berardo/html-es6-template-loader#readme",
+  "dependencies": {
+    "es6-templates": "^0.2.3",
+    "loader-utils": "^0.2.16"
+  },
+  "engines": {
+    "node": ">=4.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
