@@ -1,6 +1,6 @@
 {
   "name": "html-es6-template-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webpack loader to parse HTML as ES6 template strings",
   "readme": "README.md",
   "main": "index.js",
