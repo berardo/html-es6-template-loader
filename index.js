@@ -10,7 +10,7 @@ module.exports = function main(source) {
   const query = loaderUtils.parseQuery(this.query);
   let content = source;
   if (query && query.transpile) {
-    content = compile(source);
+    content = compile(`\`${source}\``).code;
   }
 
   const funcName = '__html_es6_template_loader__';
