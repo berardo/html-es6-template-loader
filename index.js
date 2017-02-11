@@ -11,12 +11,14 @@ module.exports = function main(source) {
   let content = source;
   if (query && query.transpile) {
     content = compile(`\`${source}\``).code;
+  } else {
+    content = `\`${content}\``;
   }
 
   const funcName = '__html_es6_template_loader__';
   const result = `
     function ${funcName}() {
-      return \`${content}\`;
+      return ${content};
     }
     module.exports = function(context) {
       return ${funcName}.call(context, context);
