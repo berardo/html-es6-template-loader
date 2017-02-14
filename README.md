@@ -1,3 +1,6 @@
+![Dependencies status](https://david-dm.org/berardo/html-es6-template-loader/status.svg)
+![devDependencies status](https://david-dm.org/berardo/html-es6-template-loader/dev-status.svg)
+
 # WEBPACK - HTML ES6 TEMPLATE LOADER
 
 Webpack loader to parse HTML as ES6 template strings
