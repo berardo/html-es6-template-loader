@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/html-es6-template-loader.svg)](https://badge.fury.io/js/html-es6-template-loader)
 ![Dependencies status](https://david-dm.org/berardo/html-es6-template-loader/status.svg)
 ![devDependencies status](https://david-dm.org/berardo/html-es6-template-loader/dev-status.svg)
 

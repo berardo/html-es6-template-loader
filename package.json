@@ -1,6 +1,6 @@
 {
   "name": "html-es6-template-loader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Webpack loader to parse HTML as ES6 template strings",
   "readme": "README.md",
   "main": "index.js",
@@ -30,14 +30,14 @@
   "homepage": "https://github.com/berardo/html-es6-template-loader#readme",
   "dependencies": {
     "es6-templates": "^0.2.3",
-    "loader-utils": "^0.2.16"
+    "loader-utils": "^1.0.2"
   },
   "engines": {
     "node": ">=4.7.3"
   },
   "devDependencies": {
-    "eslint": "^3.15.0",
-    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint": "^3.17.0",
+    "eslint-config-airbnb-base": "^11.1.1",
     "eslint-plugin-import": "^2.2.0"
   }
 }
