@@ -7,7 +7,7 @@ module.exports = function main(source) {
     this.cachable(true);
   }
 
-  const query = loaderUtils.parseQuery(this.query);
+  const query = loaderUtils.getOptions(this);
   let content = source;
   if (query && query.transpile) {
     content = compile(`\`${source}\``).code;
