@@ -17,17 +17,17 @@ suporting interpolations.
 ## Usage
 
 To add it as dev dependency:
-```
+```bash
 npm install --save-dev html-es6-template-loader
 ```
 
 To set this loader on **webpack.config.js**:
-```
+```javascript
 module: {
-  loaders: [
+  rules: [
     {
       test: /\.html$/,
-      loader: 'html-es6-template-loader',
+      use: ['html-es6-template-loader']
     },
   ],
 }
@@ -35,12 +35,12 @@ module: {
 
 A template may look like this:
 File: e.g. `template.html`
-```
+```html
 <div>Every time you use ${this.avoid} a ${this.who} dies</div>
 ```
 
 A javascript file may look like this:
- ```
+ ```javascript
  import template from './template.html';
 
  document.getElementById('container').innerHTML = template({
@@ -52,13 +52,13 @@ A javascript file may look like this:
 You might want to have the template exported as ES5 concatenated string.
 To do that, just add a query parameter `transpile = true`:
 
-```
+```javascript
 module: {
-  loaders: [
+  rules: [
     {
       test: /\.html$/,
-      loader: 'html-es6-template-loader',
-      query: {
+      use: ['html-es6-template-loader'],
+      options: {
         transpile: true
       },
     },
